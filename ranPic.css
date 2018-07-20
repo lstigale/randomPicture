@@ -1,22 +1,27 @@
 body {
-  background: white;
-  height:100vh;
   margin: 0;
   padding: 0;
+}
+
+.fullBackground {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-position: bottom;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  width: 100%;
 }
 
 h2 {
   margin-bottom: -15px;
 }
 
-.top-space {
-  height:4vh;
-}
-
 .button {
   margin-bottom: 15px;
   width: 150px;
-  height:40px;
+  height: 40px;
   border-color: inherit;
   outline: none;
 }
@@ -24,7 +29,6 @@ h2 {
 .textfield {
   width: 40px;
 }
-
 
 .box {
   display: flex;
@@ -42,26 +46,22 @@ h2 {
 .button {
   margin: auto;
   width: 150px;
-  height:40px;
+  height: 40px;
   margin-bottom: 20px;
   background-color: inherit;
   border-color: inherit;
   outline: none;
 }
 
-
 .center {
   display: flex;
   align-content: center;
   flex-direction: column;
-
   text-align: center;
   margin: auto;
   padding-bottom: 20px;
   width: 320px;
-
   border: 1px;
   border-radius: 25px;
-
   background-color: rgba(255, 255, 255, .2);
 }
