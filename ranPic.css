@@ -4,12 +4,9 @@ body {
 }
 
 .fullBackground {
+  height: calc(100vh - 50px);
   padding-top: 25px;
   padding-bottom: 25px;
-  background-position: bottom;
-  position: relative;
-  background-size: cover;
-  background-attachment: fixed;
   text-align: center;
   width: 100%;
 }
@@ -64,4 +61,10 @@ h2 {
   border: 1px;
   border-radius: 25px;
   background-color: rgba(255, 255, 255, .2);
+}
+
+@media (max-height: 600px) {
+  .fullBackground {
+    height: 570px;
+  }
 }
